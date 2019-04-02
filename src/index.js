@@ -45,5 +45,5 @@ const routes = require('./routes/index.js');//Importing routes
 routes(app)//Register the routes
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log('Server has started....'))
+app.listen(PORT, () => console.log(`Server has started on ${PORT}....`))
 
